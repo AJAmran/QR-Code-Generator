@@ -22,7 +22,7 @@ This QR Code Generator is a modern, professional web application that allows use
 
 ## Live Demo
 
-You can try the QR Code Generator live [here](https://your-live-link.com).
+You can try the QR Code Generator live [here]([https://your-live-link.com](https://qr-code-generator-xi-two.vercel.app/)).
 
 ## Screenshots
 
