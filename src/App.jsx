@@ -131,7 +131,7 @@ function App() {
               </div>
               <button
                 onClick={handleDownload}
-                className="mt-6 py-3 px-6 bg-gradient-to-r from-green-600 to-emerald-600 text-white font-semibold text-lg rounded-xl shadow-lg hover:from-green-500 hover:to-emerald-500 transition duration-300"
+                className="mt-6 py-3 px-6 ms-4 bg-gradient-to-r from-green-600 to-emerald-600 text-white font-semibold text-lg rounded-xl shadow-lg hover:from-green-500 hover:to-emerald-500 transition duration-300"
               >
                 Download QR Code
               </button>
