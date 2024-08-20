@@ -1,13 +1,13 @@
-import React, { useState } from 'react';
-import QRCode from 'qrcode.react';
-import html2canvas from 'html2canvas';
+import React, { useState } from "react";
+import QRCode from "qrcode.react";
+import html2canvas from "html2canvas";
 
 function App() {
-  const [text, setText] = useState('');
-  const [color, setColor] = useState('#000000');
+  const [text, setText] = useState("");
+  const [color, setColor] = useState("#000000");
   const [logo, setLogo] = useState(null);
   const [size, setSize] = useState(256);
-  const [errorLevel, setErrorLevel] = useState('L');
+  const [errorLevel, setErrorLevel] = useState("L");
   const [showQR, setShowQR] = useState(false);
 
   const handleGenerateQR = () => {
@@ -19,11 +19,11 @@ function App() {
   };
 
   const handleDownload = () => {
-    const qrCodeElement = document.getElementById('qr-code');
+    const qrCodeElement = document.getElementById("qr-code");
     html2canvas(qrCodeElement).then((canvas) => {
-      const link = document.createElement('a');
-      link.href = canvas.toDataURL('image/png');
-      link.download = 'qrcode.png';
+      const link = document.createElement("a");
+      link.href = canvas.toDataURL("image/png");
+      link.download = "qrcode.png";
       link.click();
     });
   };
@@ -110,7 +110,10 @@ function App() {
           </button>
           {showQR && text && (
             <div className="mt-8 text-center">
-              <div id="qr-code" className="relative mx-auto inline-block p-4 bg-white rounded-xl shadow-lg">
+              <div
+                id="qr-code"
+                className="relative mx-auto inline-block p-4 bg-white rounded-xl shadow-lg"
+              >
                 <QRCode
                   value={text}
                   size={size}

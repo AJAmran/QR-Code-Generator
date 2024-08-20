@@ -29,17 +29,15 @@ You can try the QR Code Generator live [here](https://your-live-link.com).
 Here are some screenshots of the QR Code Generator UI:
 
 ### Main Interface
-![Main Interface](./assets/screenshot-main-interface.png)
+![Main Interface](/src/assets/demo1.png)
 
 ### QR Code Customization
-![QR Code Customization](./assets/screenshot-customization.png)
+![QR Code Customization](/src/assets/demo2.png)
 
-### Download QR Code
-![Download QR Code](./assets/screenshot-download.png)
 
 ## Installation
 
 1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/yourusername/qr-code-generator.git
+   git clone https://github.com/AJAmran/QR-Code-Generator.git
